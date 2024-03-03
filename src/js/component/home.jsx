@@ -10,7 +10,7 @@ const EjemploUseEffect = () => {
     const fetchData = async () => {
       try {
         // Realizar la solicitud o acción asíncrona
-        const response = await fetch('https://api.example.com/data');
+        const response = await fetch('https://jsonplaceholder.typicode.com/posts');
         const data = await response.json();
 
         // Actualizar el estado con los datos obtenidos
